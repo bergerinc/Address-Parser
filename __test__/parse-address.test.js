@@ -1,4 +1,4 @@
-import { parseAddress } from "../AddressParser";
+import { parseAddress } from "../src/AddressParser.js";
 
 //set up global values
 const _delimiter = "*";
