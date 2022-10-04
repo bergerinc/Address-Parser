@@ -16,7 +16,6 @@ v16.13.1
 
 ## Table of contents
 
-- [Address-Parser](#address-parser)
   - [Prerequisites](#prerequisites)
   - [Table of contents](#table-of-contents)
   - [Getting Started](#getting-started)
