@@ -22,7 +22,7 @@ v16.13.1
   - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
-    - [Serving the app](#serving-the-app)
+    - [Running the app](#running-the-app)
     - [Running the tests](#running-the-tests)
   - [Contributing](#contributing)
   - [Versioning](#versioning)
@@ -52,7 +52,8 @@ $ npm install
 
 ## Usage
 
-### Serving the app
+### Running the app (Examples)
+
 
 ```sh
 $ node parse-address.js -a "1234 Main Street*Suite 100*New York*NY*10001*USA" -d "*"
@@ -88,5 +89,4 @@ See also the list of [contributors](https://github.com/bergerinc/address-parser/
 
 ## License
 
-[MIT License]
-
+MIT License
