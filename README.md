@@ -52,8 +52,9 @@ $ npm install
 
 ## Usage
 
-### Running the app (Examples)
+### Running the app
 
+#### Examples
 
 ```sh
 $ node parse-address.js -a "1234 Main Street*Suite 100*New York*NY*10001*USA" -d "*"
