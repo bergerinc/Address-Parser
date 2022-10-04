@@ -68,7 +68,7 @@ $ npm test
 
 ## Contributing
 
-1.  Fork it!
+1.  Fork the repo.
 2.  Create your feature branch: `git checkout -b my-new-feature`
 3.  Add your changes: `git add .`
 4.  Commit your changes: `git commit -am 'Add some feature'`
