@@ -1,5 +1,5 @@
 # Address-Parser
-Attempts to parse a concatenated mailing address into street address 1, street address 2, city, state, postal code and country code (ISO2 or ISO3).
+Attempts to parse a concatenated mailing address into street address, street address 2, city, state, postal code and country code (ISO2 or ISO3).
 
 ## Prerequisites
 
@@ -56,6 +56,8 @@ $ npm install
 
 ```sh
 $ node parse-address.js -a "1234 Main Street*Suite 100*New York*NY*10001*USA" -d "*"
+$ node parse-address.js -a "1234 Main Street,Suite 100,New York,NY,10001,USA" -d ","
+$ node parse-address.js -a "1234 Main Street|Suite 100|New York|NY|10001|USA" -d "|"
 ```
 
 ### Running the tests
@@ -87,3 +89,4 @@ See also the list of [contributors](https://github.com/bergerinc/address-parser/
 ## License
 
 [MIT License]
+
